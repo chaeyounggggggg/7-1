@@ -10,3 +10,5 @@ function goWrite(){
 }
 const today = new Date();
 const formattedDate =`${today.getFullYear()}.${today.getMonth()+1}.${today.getDate()}`
+const Datee = document.getElementById("date");
+Datee.textContent=formattedDate;
